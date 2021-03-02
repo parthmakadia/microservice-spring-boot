@@ -1,4 +1,4 @@
-package com.parth.RatingsData.models;
+package com.parth.MoviesCatalog.models;
 
 public class Rating {
 	
@@ -9,7 +9,6 @@ public class Rating {
 	public Rating() {
 		
 	}
-	
 	public Rating(String movieId, int ratings) {
 		super();
 		this.movieId = movieId;
